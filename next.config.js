@@ -6,12 +6,12 @@ const nextConfig = {
       'lh3.googleusercontent.com',
       'openseauserdata.com',
       'brand.assets.adidas.com',
-      'media0.gliph.com',
+      'media0.giphy.com',
       'avatars.dicebear.com',
-      'media1.gliph.com',
-      'media2.gliph.com',
-      'media3.gliph.com',
-      'media4.gliph.com',
+      'media1.giphy.com',
+      'media2.giphy.com',
+      'media3.giphy.com',
+      'media4.giphy.com',
     ]
   }
 }
