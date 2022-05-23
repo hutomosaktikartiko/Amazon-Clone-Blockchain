@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { MoralisProvider } from 'react-moralis'
 import { AmazonProvider } from '../context/AmazonContext';
+import { ModalProvider } from 'react-simple-hook-modal';
 
 const serverUrl = process.env.NEXT_PUBLIC_MORALIS_SERVER;
 const appId = process.env.NEXT_PUBLIC_MORALIS_APP_ID;
@@ -12,7 +13,9 @@ function MyApp({ Component, pageProps }) {
       appId={appId}
     >
       <AmazonProvider>
-        <Component {...pageProps} />
+        <ModalProvider>
+          <Component {...pageProps} />
+        </ModalProvider>
       </AmazonProvider>
     </MoralisProvider>
   )
